@@ -1,9 +1,17 @@
 ---
-id: 5
+layout: default
 title: Updates
-date: '2010-08-13T10:35:55+00:00'
-author: admin
-layout: page
-guid: 'http://maryharris.org/?page_id=5'
+permalink: /updates/
 ---
 
+<h1>Updates</h1>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <br />
+      <small>{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+  {% endfor %}
+</ul>
