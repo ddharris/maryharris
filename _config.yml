@@ -1,3 +1,7 @@
-url: 'http://maryharris.org'
-name: 'Mary Martin Harris'
-description: 'Daughter | Sister | Friend | Wife | Mother | Teacher | Angel'
+title: My WordPress Blog
+description: Exported from WordPress
+baseurl: "/maryharris" # leave blank for user.github.io/my-site
+url: "https://ddharris.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
